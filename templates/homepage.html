@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('style', filename='styles.css') }}">
+
+
+</head>
+<body>
+
+    <form>
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirmPassword">Confirma Senha:</label>
+        <input type="text" id="confirmPassword" name="username" required>
+
+        
+        <button type="button" onclick="cadastrar()">Cadastrar</button>
+        <button type="button" onclick="backPage()">Voltar</button>
+    </form>
+
+    <script>
+
+        function backPage(){
+            window.history.back();
+        }
+
+        function login() {
+            // Lógica de autenticação aqui
+            alert('Autenticação realizada com sucesso!');
+        }
+
+        function cadastrar() {
+            // Lógica de cadastro aqui
+            alert('Cadastro realizado com sucesso!');
+            
+        }
+    </script>
+
+</body>
+
+</html>
