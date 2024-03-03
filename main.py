@@ -8,10 +8,11 @@ import string
 
 # criando conexão com o banco de dados 
 mydb = mysql.connector.connect(
-    host = 'localhost',
-    user = 'root',
-    password = 'root',
-    database = 'system_web',
+    host='viaduct.proxy.rlwy.net',
+    port=54391,
+    user='root',
+    password='bGaBfHGE42gAbC3hef2gGcDe-cgchDD-',
+    database='railway'
 )
 
 # instânciando a classe Flask do framework Flask
