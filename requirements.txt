@@ -80,7 +80,7 @@ requests==2.31.0
 requests-toolbelt==1.0.0
 rich==13.7.0
 # Editable install with no version control (robo==1.0)
-git+https://github.com/HigorMendes/passGuard.git
+git+https://github.com/HigorMendes/passGuard
 six==1.16.0
 SQLAlchemy==2.0.25
 text-unidecode==1.3
